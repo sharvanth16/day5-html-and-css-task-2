@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 0 1rem 1rem 0;
+  }
+  
+  @media (max-width: 576px) {
+    .gallery {
+      flex-wrap: none;
+    }
+  }
+  
